@@ -1,0 +1,6 @@
+[submodule "third_party/minhook"]
+	path = third_party/minhook
+	url = https://github.com/TsudaKageyu/minhook.git
+[submodule "third_party/driverinjectdll"]
+	path = third_party/driverinjectdll
+	url = https://github.com/strivexjun/DriverInjectDll.git
