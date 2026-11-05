@@ -148,7 +148,9 @@ namespace payload::render
             o_clear_depth_stencil.install( ctx_vt[ 0x35 ], hk_clear_depth_stencil );
         }
 
-        CreateThread( nullptr, 0, config_poll, nullptr, 0, nullptr );
+        ctx->Release( );
+        sc->Release( );
+        dev->Release( );
         return true;
     }
 }
